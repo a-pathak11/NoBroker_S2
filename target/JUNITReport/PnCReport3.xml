@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="27.241" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To test the Painting and Cleaning module" name="To validate contact now page in Blogsy" time="27.021">
+<system-out><![CDATA[
+Given user should be on Home page...........................................passed
+When user selects blog from the menu........................................passed
+And user gets navigated to blog page and scrolls down.......................passed
+And user clicks on Top Blogs................................................passed
+And user scrolls down the page..............................................passed
+And user chooses a link from renting part...................................passed
+And user gets navigated to the page and scrolls down........................passed
+And user fills the contact us form..........................................passed
+And clicks on submit button.................................................passed
+Then it should show a success message for the form submission...............passed
+]]></system-out>
+</testcase>
+</testsuite>

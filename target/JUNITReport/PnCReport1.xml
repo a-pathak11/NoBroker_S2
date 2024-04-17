@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="22.906" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To test the Painting and Cleaning module" name="To validate Search bar in Painting and Cleaning" time="22.437">
+<system-out><![CDATA[
+Given user should be on Home page...........................................passed
+When user clicks on menu button.............................................passed
+And user selects painting and cleaning......................................passed
+And user enters in search bar...............................................passed
+And user selects from the list..............................................passed
+Then It should redirect to the selected page................................passed
+]]></system-out>
+</testcase>
+</testsuite>

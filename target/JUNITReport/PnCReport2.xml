@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="28.039" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To test the Painting and Cleaning module" name="To validate form of corporate Enquiry - Example #1.1" time="27.59">
+<system-out><![CDATA[
+Given user should be on Home page...........................................passed
+When user clicks on menu button from the sidebar............................passed
+And clicks on corporate enquiry.............................................passed
+And user enters "Popeye", "1111111111", "popeye@gmail.com" and "popeyeTheSailorMan".passed
+And user selects city from dropdown.........................................passed
+And user clicks on book consultation........................................passed
+Then it should display the success message of form submission...............passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="9.242" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="To test the Painting and Cleaning module" name="To validate the mobile number of Corporate Enquiry - Example #1.1" time="8.985">
+<failure type="java.lang.AssertionError" message="expected [true] but found [false]">
+<![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at PnCStepDefinition.PnCStepDefinition.user_enters_including_characters(PnCStepDefinition.java:339)
+	at ✽.user enters "4567ert" including characters(file:///C:/Users/ANPATHAK/Desktop/PaintingAndCleaning/src/test/resources/Features/PnCFeature.feature:76)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user should be on Home page...........................................passed
+When user clicks on menu....................................................passed
+And user clicks on Corporate Enquiry from the dropdown......................passed
+And user enters name........................................................passed
+Then user enters "4567ert" including characters.............................failed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="81.779" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To test the Painting and Cleaning module" name="To validate Rental Agreements Property Details - Example #1.1" time="81.587">
+<system-out><![CDATA[
+Given User should be logged in and should be on home page...................passed
+When user scrolls down the menu page........................................passed
+And user clicks on Rental Agreement.........................................passed
+And user gets navigated to Legal Services Page..............................passed
+And user clicks on Rental Agreement with Biometric..........................passed
+And user clicks on Property Details.........................................passed
+And user fill out the "206" , "Puneet" , "Tagore Nagar" , "The Other Street" , "452011" , "1505" ,"2200" , "1100" and "<galleryArea1>".passed
+And user clicks on Save and Proceed.........................................passed
+Then user gets navigated to Landlord Detail page............................passed
+]]></system-out>
+</testcase>
+</testsuite>
